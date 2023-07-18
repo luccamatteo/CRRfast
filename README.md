@@ -6,6 +6,6 @@ CRRfast is an emulator designed to quickly and accurately represent the CRR spec
 
 The folder contains three tables of Taylor coefficeints used to derived the requested CRR spectrum from a reference as well as the python module that performs the calculation. The latter module contains in turn 1) one function that calculates the CRR spectrum depending on the input cosmological parameters and their possible variances with respect to the sky-average and 2) an example of how to use that function to reproduce e.g., Fig. 6 of the release paper.
 
-CRRfast has also been made part of the Boltzmann solver CLASS [CLASS](https://github.com/lesgourg/class_public) extending the pre-existing disotrtions.c module.
+CRRfast has also been made part of the Boltzmann solver [CLASS](https://github.com/lesgourg/class_public) extending the pre-existing disotrtions.c module.
 
 The development of the code has been supported by the F.R.S.-FNRS, the ERC Consolidator Grant CMBSPEC (No. 725456) and the Royal Society (No. URF/R/191023).
